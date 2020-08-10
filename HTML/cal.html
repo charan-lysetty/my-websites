@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+    <meta charset="utf-8">
+      <title>Simple Calculator</title>
+      <link rel="stylesheet" href="css1\calcss.css">
+      <style>
+
+      </style>
+   </head>
+      <body>
+
+          Simple Calculator
+         <div class="one">
+
+          </div>
+         <div class="calculator">
+             <form name="calculator">
+               <input type="text" name="answer">
+
+             <table>
+               <tr height="30%">
+                 <td width="20%"><input  type="button" value="C"onclick="calculator.answer.value = ''"></td>
+                 <td width="20%"><input  type="button" value="<"onclick="calculator.answer.value += '<'"></td>
+                 <td width="20%"><input  type="button" value="/"onclick="calculator.answer.value += '/'"></td>
+                 <td width="20%"><input  type="button" value="*"onclick="calculator.answer.value += '*'"></td>
+
+               </tr>
+               <tr height="30%">
+                 <td width="20%"><input  type="button" value="7"onclick="calculator.answer.value += '7'"></td>
+                <td width="20%"><input  type="button" value="8"onclick="calculator.answer.value += '8'"></td>
+                <td width="20%"><input  type="button" value="9"onclick="calculator.answer.value += '9'"></td>
+                <td width="20%"><input  type="button" value="-"onclick="calculator.answer.value += '-'"></td>
+
+              </tr>
+              <tr height="30%">
+                <td width="20%"><input  type="button" value="4" onclick="calculator.answer.value += '4'"></td>
+                <td width="20%"><input  type="button" value="5"onclick="calculator.answer.value += '5'"></td>
+                <td width="20%"><input  type="button" value="6"onclick="calculator.answer.value += '6'"></td>
+                <td width="20%"><input  type="button" value="+"onclick="calculator.answer.value += '+'"></td>
+
+              </tr>
+               <tr height="30%">
+                <td width="20%"><input type="button" value="1"onclick="calculator.answer.value += '1'"></td>
+                <td width="20%"><input type="button" value="2"onclick="calculator.answer.value += '2'"></td>
+                <td width="20%"><input type="button" value="3"onclick="calculator.answer.value += '3'"></td>
+                <td width="20%"><input type="button" value="="onclick="calculator.answer.value = eval(calculator.answer.value)"></td>
+
+              </tr>
+            </table>
+            </form>
+        </div>
+
+     </body>
+  </html>

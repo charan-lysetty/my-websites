@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+}
+.one{
+  width: 1210px;
+  height: 550px;
+  background-image: url("https://images.homedepot-static.com/productImages/2d891251-6905-43ee-a769-d21e7f92524f/svn/advantage-wallpaper-2799-02489-40-64_1000.jpg");
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: fixed;
+}
+.calculator{
+  width: 320px;
+  height: 520px;
+  background-color: #1f4068;
+  position: relative;
+  margin: 0 auto;
+  top: 68px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+input[type = text] {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 20px;
+  padding-top:20px;
+  background: lightGray;
+
+}
+
+
+input[type=button] {
+  background: lightGray;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 7px;
+  margin-left: 13px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+input[type=button]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
